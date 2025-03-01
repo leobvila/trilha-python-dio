@@ -1,3 +1,7 @@
+#[].sort vai ordenar ordem alfabetica
+#,sort(reverse=True) de traz para frente
+#.sort(key=lambda x: len(x)) vai organizar do menos para o maior
+
 linguagens = ["python", "js", "c", "java", "csharp"]
 linguagens.sort()  # ["c", "csharp", "java", "js", "python"]
 print(linguagens)
